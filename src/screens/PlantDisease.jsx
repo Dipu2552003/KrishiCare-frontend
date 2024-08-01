@@ -36,7 +36,7 @@ const PlantDisease = () => {
 
         // Send the image to the Flask API
         const response = await axios.post(
-          "http://127.0.0.1:5000/api/plantdisease",
+          "https://bd1bdcf7-66a6-4d4f-ac34-1adfd85af3d6-00-2fbyq2188kp36.sisko.replit.dev/api/plantdisease",
           {
             image_data: base64Image,
           }
